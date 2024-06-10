@@ -1,0 +1,12 @@
+.select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #363d56;
+    cursor: pointer;
+}
+
+.select option[disabled] {
+    color: #999;
+    cursor: pointer;
+}

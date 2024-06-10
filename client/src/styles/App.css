@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Verdana, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.mainContent {
+    width: 100%;
+    min-height: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-image: url('C:\Users\ledem\Desktop\Flower Heaven\client\src\styles\fon.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: top;
+    background-size: 100% auto;
+    min-height: 100vh; 
+}

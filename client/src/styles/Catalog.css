@@ -1,0 +1,78 @@
+.catalog__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.catalog__flowerError {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(146, 0, 0);
+}
+
+.flowerFilter {
+    width: 70%;
+    min-width: 300px;
+    margin: 10px auto;
+    padding: 10px 30px;
+}
+
+.flowerList {
+    margin: 10px;
+    padding: 10px;
+}
+
+.flowerList__title {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.flower {
+    background: #eaefff;
+    display: flex;
+    padding: 10px;
+    border: 0px solid #363d56;
+    border-radius: 10px;
+    margin: 20px auto;
+    min-width: 400px;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flower__content {
+    margin: 10px;
+}
+
+.flower__content__title {
+    margin: 5px 0 10px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.flower__content__details {
+    margin: 10px;
+}
+
+.flower__content__details__item {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.flower__buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.back {
+    background-color: #f0f0f0; /* Однотонный цвет */
+    /* Для градиента используйте: background: linear-gradient(to right, #ff7e5f, #feb47b); */
+    /* Для изображения используйте: background-image: url('/path/to/background.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh; /* Заставляет фон занимать всю высоту экрана */
+  }
